@@ -145,6 +145,10 @@ body {
     font-weight: 400;
 }
 
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
 .rodape__texto{
     font-size: 0.85rem;
     color: var(--cinza-secundario);
