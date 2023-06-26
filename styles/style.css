@@ -4,8 +4,10 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
+    --botao-azul-hover: #3c92fa;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+
 }
 
 body {
@@ -154,4 +156,9 @@ body {
     color: var(--cinza-secundario);
     margin: 3em 0;
     font-weight: 400;
+}
+
+.container__botao:hover{
+    background-color: var(--botao-azul-hover);
+    color: var(--cor-de-fundo);
 }
