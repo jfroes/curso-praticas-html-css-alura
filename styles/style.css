@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal{
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__botao{
+    display: block;
+    background-color: var(--botao-azul);
+    border-radius: 8px;
+    text-decoration: none;
+
+    font-size: 1rem;
+    padding: 1em;
+    color: var(--branco-principal);
+
+    margin-bottom: 1em;
+}
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    font-size: 1rem;
+}
+
+.container__aviso{
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 8em;
+}
+
+.descricao__titulo{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 2em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+    
+}
+
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 3rem;
+    color: var(--branco-principal);
+}
+
+.lista__item{
+    font-size: 2rem;
+    color: var(--branco-principal);
+}
+
+.rodape{
+    text-align: center;
+    margin: 12em 0 5em;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.lista__link{
+    font-size: 1rem;
+    padding: 1em;
+    margin-top: 3em ;
+}
+
+.lista__link a{
+    color: var(--branco-principal);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.rodape__texto{
+    font-size: 0.85rem;
+    color: var(--cinza-secundario);
+    margin: 3em 0;
+    font-weight: 400;
+}
